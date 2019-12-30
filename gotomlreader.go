@@ -1,9 +1,10 @@
 package main
 
 import ("github.com/amunnelly/gotomlreader/mytomlreader"
-"fmt")
+		"fmt")
 
-function main() {
+
+func main() {
 	test := mytomlreader.Reader("alphabeta.toml")
-	fmt.Println(test)
+	fmt.Printf("%T\n", test)
 }
